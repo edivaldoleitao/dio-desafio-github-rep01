@@ -1,0 +1,49 @@
+#titulo, .titulo_post, .titulo_artigo { /*as classes tem ponto e id hastag isso aqui é um grupo de regras*/
+    color: rgb(86, 114, 105);
+}
+
+body {
+    background-color: burlywood;
+    max-width: 700px; /*define como maior pra poder ajustar na tela até esse valor*/
+    margin: auto;
+}
+
+a {
+    text-decoration-line: line-through;
+}
+
+.titulo_post {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rgb(83, 51, 9);
+}
+
+
+.titulo_artigo {
+    font-size: 16px;
+    color: black;
+}
+
+
+.post {
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: 4px solid black;
+    margin: 10px;
+    border-radius: 5px; /*arredonda as bordas*/
+    text-transform: uppercase;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 100%;   
+}
+
+.lista {
+    list-style: circle;
+}
+
+.lista li {
+    color: cornsilk;
+}
